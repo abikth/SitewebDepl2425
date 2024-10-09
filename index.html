@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <title>W3.CSS Template</title>
-    <meta charset="UTF-8">
-    <meta name="description" content="W3.CSS Template">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="description" content="W3.CSS Template">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Minification et concaténation des fichiers CSS recommandés -->
-    <link rel="stylesheet" href="w3.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="media.css" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="standard.css" media="print" onload="this.media='all'">
+<link rel="stylesheet" href="w3.css">
+<link rel="stylesheet" href="media.css">
+<link rel="stylesheet" href="standard.css">
 
-    <!-- Préchargement de l'image principale pour améliorer le Largest Contentful Paint -->
-    <link rel="preload" href="img/main_HOME.webp" as="image" type="image/webp">
+<link rel="preload" href="img/main_HOME.webp" as="image" type="image/webp"  />
+
 </head>
 <body>
 
-<!-- Section avec l'image principale -->
 <div class="w3-display-container" style="margin-bottom:50px">
-    <!-- Ajout des dimensions exactes pour éviter les problèmes de mise en page (CLS) -->
-    <img src="img/main_HOME.webp" style="width:100%; height:auto;" alt="Photo éléphant" width="1920" height="1080" loading="lazy">
-    <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small" style="bottom:10%;opacity:0.7;width:70%">
-        <h2><b>Travel Agency (Demo Website)</b></h2>
-    </div>
+  <img src="img/main_HOME.webp" style="width:100%; height:auto;" alt="Photo éléphant" width="1920" height="1080"  >
+  <div class="w3-display-bottomleft w3-container w3-amber w3-hover-orange w3-hide-small"
+   style="bottom:10%;opacity:0.7;width:70%">
+  <h2><b>Travel Agency (Demo Website)</b></h2>
+  </div>
 </div>
 
-<!-- Section avec deux colonnes -->
 <div class="w3-row w3-container" style="margin:50px 0">
-    <div class="w3-half w3-container">
-        <div class="w3-topbar w3-border-amber">
-            <!-- Ajout des dimensions exactes pour toutes les images -->
-            <img src="img/cellphone.webp" style="width:100%; height:auto" alt="Photo téléphone" width="800" height="600" loading="lazy">
-            <h2>Smart Vacation</h2>
-            <p>Full vacation control from your cell phone.</p>
-        </div>
-    </div>
-
-    <div class="w3-half w3-container">
-        <div class="w3-topbar w3-border-amber">
-            <img src="img/sealions.webp" style="width:100%; height:auto" alt="Photo animal" width="800" height="600" loading="lazy">
-            <h2>Super Offers</h2>
-            <p>Up to 50% offers. Always 25% student offers.</p>
-        </div>
-    </div>
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <img src="img/cellphone.webp" style="width:100%; height:auto" alt="Photo téléphone" width="800" height="600">
+    <h2>Smart Vacation</h2>
+    <p>Full vacation control from your cell phone.</p>
+  </div>
 </div>
 
-<!-- Section suivante avec deux colonnes -->
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-amber">
+    <img src="img/sealions.webp" style="width:100% ; height:auto" alt="Photo animal" width="800" height="600">
+    <h2>Super Offers</h2>
+    <p>Up to 50% offers. Always 25% student offers.</p>
+  </div>
+</div>
+</div>
+
 <div class="w3-row w3-container" style="margin:50px 0">
-    <div class="w3-half w3-container">
-        <div class="w3-topbar w3-border-orange">
-            <img src="img/truck.webp" style="width:100%; height:auto" alt="Photo voiture" width="800" height="600" loading="lazy">
-            <h2>Car Rental Included</h2>
-            <p>Wherever you travel our car rental is included.</p>
-        </div>
-    </div>
-
-    <div class="w3-half w3-container">
-        <div class="w3-topbar w3-border-orange">
-            <img src="img/nowornever.webp" style="width:100%; height:auto" alt="Photo nowornever" width="800" height="600" loading="lazy">
-            <h2>Realize Your Dreams</h2>
-            <p>Don't wait until it is too late.</p>
-        </div>
-    </div>
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-orange">
+    <img src="img/truck.webp" style="width:100% ; height:auto" alt="Photo voiture" width="800" height="600">
+    <h2>Car Rental Included</h2>
+    <p>Wherever you travel our car rental is included.</p>
+  </div>
 </div>
 
-<!-- Chargement différé des scripts JavaScript pour éviter le blocage du rendu -->
-<script src="script.js" defer></script>
+<div class="w3-half w3-container">
+  <div class="w3-topbar w3-border-orange">
+    <img src="img/nowornever.webp" style="width:100% ; height:auto" alt="Photo nowornever" width="800" height="600">
+    <h2>Realize Your Dreams</h2>
+    <p>Don't wait until it is to late.</p>
+    </div>
+</div>
+</div>
 
 </body>
 </html>
